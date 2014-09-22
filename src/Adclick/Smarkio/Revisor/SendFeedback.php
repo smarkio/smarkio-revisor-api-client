@@ -14,7 +14,7 @@ namespace Adclick\Smarkio\Revisor;
 class SendFeedback
 {
 
-    const API_BASE_URL = 'http://api.smark.io/';
+    const API_BASE_URL = 'https://api.smark.io/';
     const API_VERSION = 'v1';
 
     public static function send($api_token, $post_fields, $api_url = null)
