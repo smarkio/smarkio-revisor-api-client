@@ -6,19 +6,18 @@ One accelerator to communicate with © Smark.io Feedback API
 Installation and usage with Composer
 ----------
 
-Needs to be changed
 
 Add the following to your composer.json file in order to fetch the latest stable version of the project:
 
 ```
 {
     "require": {
-        "adclick/leadoffice-api": "*"
+        "adclick/smarkio-revisor": "*"
     }
 }
 ```
 
-Then, in order to use the accelerators on your own PHP file, add the following:
+Then, in order to use the accelerator on your own PHP file, add the following:
 
 ```
 require '[COMPOSER_VENDOR_PATH]/autoload.php';
