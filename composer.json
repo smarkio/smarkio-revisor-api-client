@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Accelerator to communicate with the Smark.io Feedback API",
     "keywords": ["smarkio","lead","adclick"],
-    "homepage":"https://github.com/adclick/smarkio-revisor",
+    "homepage":"https://github.com/smarkio/smarkio-revisor",
     "license": "MIT",
     "authors": [
         {
