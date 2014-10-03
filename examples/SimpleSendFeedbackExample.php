@@ -2,7 +2,7 @@
 /*
  * An example on how to create a Lead Feedback
  * (with the mandatory parameters only) and how to use the API
- * to send it to LeadOffice.
+ * to send it to Smark.io.
  */
 
 require __DIR__ . '/../src/Smarkio/Revisor/Feedback.php';
