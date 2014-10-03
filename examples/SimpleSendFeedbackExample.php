@@ -5,7 +5,7 @@
  * to send it to LeadOffice.
  */
 
-require __DIR__ . '/../src/Adclick/Smarkio/Revisor/Feedback.php';
+require __DIR__ . '/../src/Smarkio/Revisor/Feedback.php';
 
 use Adclick\Smarkio\Revisor\Feedback;
 
