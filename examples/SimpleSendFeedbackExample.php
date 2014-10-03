@@ -5,9 +5,9 @@
  * to send it to LeadOffice.
  */
 
-require __DIR__ . '/../src/Adclick/Smarkio/Revisor/Feedback.php';
+require __DIR__ . '/../src/Smarkio/Revisor/Feedback.php';
 
-use Adclick\Smarkio\Revisor\Feedback;
+use Smarkio\Revisor\Feedback;
 
 $api_token = 'INSERT YOUR TOKEN HERE';
 $external_id = '3';

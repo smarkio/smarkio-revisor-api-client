@@ -2,14 +2,13 @@
 /**
  *
  *
- * @author     Vítor Santos <vitor.santos@adclick.pt>
- * @copyright  2014 Adclick
- * @license    [SMARKIO_URL_LICENSE_HERE]
+ * @author     Vítor Santos <vitor.santos@smark.io>
+ * @copyright  2014 Smark.io
+ * @license    http://opensource.org/licenses/MIT MIT License
  *
- * [SMARKIO_DISCLAIMER]
  */
 
-namespace Adclick\Smarkio\Revisor;
+namespace Smarkio\Revisor;
 
 require_once('SendFeedback.php');
 

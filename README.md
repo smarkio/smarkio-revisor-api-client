@@ -12,7 +12,7 @@ Add the following to your composer.json file in order to fetch the latest stable
 ```
 {
     "require": {
-        "adclick/smarkio-revisor": "*"
+        "smarkio/smarkio-revisor": "*"
     }
 }
 ```
@@ -27,7 +27,7 @@ require '[COMPOSER_VENDOR_PATH]/autoload.php';
 Contents
 --------
 
-- src/Adclick/Smarkio/Revisor - Code to interact with the Smarkio Feedback API.
+- src/Smarkio/Revisor - Code to interact with the Smarkio Feedback API.
 - examples/ - Some examples on how to use this accelerator.
 
 Before you start

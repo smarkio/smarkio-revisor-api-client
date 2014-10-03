@@ -1,15 +1,6 @@
 <?php
-/**
- *
- *
- * @author     Vítor Santos <vitor.santos@adclick.pt>
- * @copyright  2014 Adclick
- * @license    [SMARKIO_URL_LICENSE_HERE]
- *
- * [SMARKIO_DISCLAIMER]
- */
 
-namespace Adclick\Smarkio\Revisor;
+namespace Smarkio\Revisor;
 
 class SendFeedback
 {

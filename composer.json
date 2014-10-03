@@ -1,20 +1,20 @@
 {
-    "name": "adclick/smarkio-revisor",
+    "name": "smarkio/smarkio-revisor",
     "type": "library",
     "description": "Accelerator to communicate with the Smark.io Feedback API",
-    "keywords": ["smarkio","lead","adclick"],
+    "keywords": ["smarkio","lead","revisor"],
     "homepage":"https://github.com/smarkio/smarkio-revisor",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adclick",
-            "email": "developers@adclick.pt",
-            "homepage": "http://www.adclickint.com/",
+            "name": "Smark.io",
+            "email": "developers@smark.io",
+            "homepage": "http://smark.io/",
             "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": { "Adclick\\Smarkio\\Revisor\\": "src/Adclick/Smarkio/Revisor/" }
+        "psr-4": { "Smarkio\\Revisor\\": "src/Smarkio/Revisor/" }
     }
 }
