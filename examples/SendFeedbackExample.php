@@ -10,7 +10,7 @@ use Smarkio\Revisor\Feedback;
 
 $api_token = 'INSERT YOUR TOKEN HERE';
 $lead_id = '1234';
-$status = 'integrated';
+$status = 'converted';
 
 // create Feedback based on the leadId in LeadOffice
 $feedback = Feedback::createWithLeadId($api_token, $lead_id, $status);
