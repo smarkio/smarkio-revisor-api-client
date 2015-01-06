@@ -1,9 +1,9 @@
 {
-    "name": "smarkio/smarkio-revisor",
+    "name": "smarkio/smarkio-revisor-api-client",
     "type": "library",
-    "description": "Accelerator to communicate with the Smark.io Feedback API",
+    "description": "Accelerator to communicate with the Smarkio Feedback API",
     "keywords": ["smarkio","lead","revisor"],
-    "homepage":"https://github.com/smarkio/smarkio-revisor",
+    "homepage":"https://github.com/smarkio/smarkio-revisor-api-client",
     "license": "MIT",
     "authors": [
         {

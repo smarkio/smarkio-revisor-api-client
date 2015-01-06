@@ -1,7 +1,7 @@
-#Smark.io Revisor - API
+#Smarkio Revisor - API
 =========================
 
-An accelerator to communicate with © Smark.io Feedback API
+An accelerator to communicate with © Smarkio Feedback API
 
 Installation and usage with Composer
 ----------
