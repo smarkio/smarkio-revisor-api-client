@@ -91,7 +91,7 @@ class Feedback
      */
     public function getLeadId()
     {
-        return isset($this->feedbackFields['lead_id']) ? $this->feedbackFields['lead_id'] : null;
+        return isset($this->feedbackFields['id']) ? $this->feedbackFields['id'] : null;
     }
 
     /**
@@ -263,5 +263,18 @@ class Feedback
         }
 
         return SendFeedback::send($this->api_token, $sendFields, $api_base_url);
+    }
+
+    /**
+     * @return string
+     */
+    public function jsonSerialize()
+    {
+        // Legacy fix
+        $feedbackFields = array_merge($this->feedbackFields, $this->extraFields);
+        $feedbackFields['lead_id'] = $feedbackFields['id'];
+        unset($feedbackFields['id']);
+
+        return json_encode($feedbackFields);
     }
 }
