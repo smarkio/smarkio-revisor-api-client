@@ -81,7 +81,9 @@ class FeedbackCollection implements \Iterator
         }
     }
 
-
+    /**
+     * @inheritDoc
+     */
     public function current()
     {
         if ( $this->index >= count($this->collection) )
@@ -92,6 +94,9 @@ class FeedbackCollection implements \Iterator
         return $this->collection[$this->index];
     }
 
+    /**
+     * @inheritDoc
+     */
     public function next()
     {
         $this->index++;
@@ -101,6 +106,9 @@ class FeedbackCollection implements \Iterator
         }
     }
 
+    /**
+     * @inheritDoc
+     */
     public function key()
     {
         if ( $this->index >= count($this->collection) )
@@ -111,11 +119,17 @@ class FeedbackCollection implements \Iterator
         return $this->index;
     }
 
+    /**
+     * @inheritDoc
+     */
     public function valid()
     {
         return true;
     }
 
+    /**
+     * @inheritDoc
+     */
     public function rewind()
     {
         $this->index = 0;
